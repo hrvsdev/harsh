@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kingvyas/harsh/static/css/main.c38b8a4b.css",
+    "main.js": "/kingvyas/harsh/static/js/main.e731827a.js",
+    "static/js/787.edd59a96.chunk.js": "/kingvyas/harsh/static/js/787.edd59a96.chunk.js",
+    "index.html": "/kingvyas/harsh/index.html",
+    "main.c38b8a4b.css.map": "/kingvyas/harsh/static/css/main.c38b8a4b.css.map",
+    "main.e731827a.js.map": "/kingvyas/harsh/static/js/main.e731827a.js.map",
+    "787.edd59a96.chunk.js.map": "/kingvyas/harsh/static/js/787.edd59a96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c38b8a4b.css",
+    "static/js/main.e731827a.js"
+  ]
+}
