@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: #181a1e;
+  font-family: "Poppins";
+}
+
+.root-app {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  height: 100vh;
+  background-color: #1f2125;
+}
+
+.root-body {
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.main-img img {
+  width: 100%;
+  background-color: black;
+}
+
+.main-text {
+  margin-top: 0.6rem;
+  text-align: center;
+}
+
+
+.main-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.main-about {
+  margin-top: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: 200;
+  color: #ffcba1;
+}
+
+.main-text a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+.website {
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: #c4deff;
+  cursor: pointer;
+}
+
+.website:hover {
+  text-decoration: underline;
+}
+
+.main-body {
+  width: 100%;
+}
+
+.main-links {
+  padding: 0 1.4rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-links > a {
+  width: 46%;
+  border-radius: 7px;
+  display: flex;
+  height: 1.8rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0 0.65rem;
+  transition: all 0.2s;
+}
+
+.email {
+  background: rgb(230, 230, 230);
+}
+
+.email:hover {
+  background-color: rgb(255, 255, 255);
+  outline: 1px solid white;
+}
+
+.email img {
+  width: 17px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.linkedin {
+  background: #4888dd;
+}
+
+.linkedin:hover {
+  background: #58a0ff;
+  outline: 1px solid #58a0ff;
+}
+
+.linkedin img {
+  width: 15px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.main-links > a > div {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.email-text {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+}
+
+.linkedin-text {
+  background-color: #2667bd00;
+  color: white;
+}
+
+.abt-int {
+  margin-top: 1.5rem;
+  padding: 0 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  font-weight: 500;
+  color: #c4deff;
+}
+
+.abt-int > div > div {
+  font-size: 0.7rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.interest {
+  margin-top: 1rem;
+}
+
+footer {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  height: 3.5rem;
+  background-color: #151517;
+}
+
+.icon-links {
+  width: 100%;
+  padding: 0 1.5rem;
+  display: flex;
+  background-color: #151517;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+}
+
+.icon-links img {
+  width: 25px;
+  cursor: pointer;
+}
